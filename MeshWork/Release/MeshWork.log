@@ -1,0 +1,51 @@
+﻿Build started 2019/6/19 14:12:01.
+     1>Project "G:\myVisualStudioWorkPlace\MeshWork\MeshWork\MeshWork.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\MeshWork.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         g:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt start.cpp
+         start.cpp
+     1>g:\myvisualstudioworkplace\meshwork\meshwork\localh.hpp(137): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\myvisualstudioworkplace\meshwork\meshwork\table.h(107): warning C4018: '<=' : signed/unsigned mismatch
+                 g:\myvisualstudioworkplace\meshwork\meshwork\table.h(105) : while compiling class template member function 'void meshwork::Table<T>::Add(int,const T &)'
+                 with
+                 [
+                     T=int
+                 ]
+                 g:\myvisualstudioworkplace\meshwork\meshwork\stltopology.hpp(293) : see reference to class template instantiation 'meshwork::Table<T>' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+       Link:
+         g:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\myVisualStudioWorkPlace\MeshWork\Release\MeshWork.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\MeshWork.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\myVisualStudioWorkPlace\MeshWork\Release\MeshWork.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\myVisualStudioWorkPlace\MeshWork\Release\MeshWork.lib" /MACHINE:X86 Release\adtree.obj
+         Release\geomfuncs.obj
+         Release\globalvariable.obj
+         Release\kodtree.obj
+         Release\localh.obj
+         Release\mesh.obj
+         Release\meshparameter.obj
+         Release\meshtype.obj
+         Release\mwlib.obj
+         Release\mwtool.obj
+         Release\start.obj
+         Release\stlbound.obj
+         Release\stlgeom.obj
+         Release\stlsurfacemeshfunction.obj
+         Release\STLSurfaceMesh.obj
+         Release\stltopology.obj
+         Release\triangulation.obj
+         Release\triangulationinkdtree.obj
+         Generating code
+         Finished generating code
+         MeshWork.vcxproj -> G:\myVisualStudioWorkPlace\MeshWork\Release\MeshWork.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\myVisualStudioWorkPlace\MeshWork\Release\MeshWork.exe;#1" /manifest Release\MeshWork.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\MeshWork.unsuccessfulbuild".
+         Touching "Release\MeshWork.lastbuildstate".
+     1>Done Building Project "G:\myVisualStudioWorkPlace\MeshWork\MeshWork\MeshWork.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.58
